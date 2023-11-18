@@ -21,7 +21,7 @@ namespace lab9
             {
                 Source = "tapped.jpg",
                 HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.CenterAndExpand
+                VerticalOptions = LayoutOptions.CenterAndExpand,
             };
 
             var tapGestureRecognizer = new TapGestureRecognizer();
@@ -32,9 +32,9 @@ namespace lab9
             label = new Label
             {
                 Text = "tap the photo!",
-                FontSize = Divice.GetNamedSize(NamedSize.Large, typeof(Label)),
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                 HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.CenterAndExpan
+                VerticalOptions = LayoutOptions.CenterAndExpand
             };
 
             Content = new StackLayout
